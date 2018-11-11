@@ -1,0 +1,21 @@
+.infoList {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid white;
+  margin-top: 20px;
+
+  li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.alias, .status {
+  border: 1px solid white;
+
+  span {
+    padding: 10px;
+    display: block;
+  }
+}

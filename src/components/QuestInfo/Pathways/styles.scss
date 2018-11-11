@@ -1,0 +1,31 @@
+.pathways {
+  margin-top: 20px;
+
+  & > ul {
+    list-style: none;
+    display: flex;
+
+    & > li {
+      text-align: center;
+      line-height: 32px;
+
+      & > div:last-child {
+        background-color: gray;
+      }
+
+      & > div {
+        padding: 10px;
+        white-space: nowrap;
+
+
+        span {
+          margin: auto 0;
+        }
+      }
+
+      &:last-child {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: white; }
+
+#root {
+  width: 100%;
+  min-height: 100%;
+  background-color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px; }
+
+.infoList__1yH2b {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid white;
+  margin-top: 20px; }
+  .infoList__1yH2b li {
+    width: 100%;
+    text-align: center; }
+
+.alias__1BYOe, .status__30qp- {
+  border: 1px solid white; }
+  .alias__1BYOe span, .status__30qp- span {
+    padding: 10px;
+    display: block; }
+
+.check__17wl6 {
+  fill: darkgreen;
+  width: 32px;
+  height: 32px; }
+
+.times__1bISq {
+  fill: darkred;
+  width: 32px;
+  height: 32px; }
+
+.minus__Aj-yp {
+  fill: white;
+  width: 32px;
+  height: 32px; }
+
+.calendarTimes__26n_2 {
+  fill: white;
+  width: 250px;
+  height: 250px; }
+
+.longArrowRight__2d0V2 {
+  fill: green;
+  width: 32px;
+  height: 32px; }
+
+.mainPage__3rgI2 h1 {
+  text-align: center;
+  padding: 10px 0; }
+
+.notFound__2RfQL {
+  text-align: center; }
+  .notFound__2RfQL h1 {
+    margin: 20px 0; }
+  .notFound__2RfQL p {
+    font-size: 1.2rem; }
+
+.questInfo__yNYJd ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white; }
+  .questInfo__yNYJd ul li {
+    text-align: center;
+    width: calc(100% / 3); }
+    .questInfo__yNYJd ul li > div:first-child {
+      font-weight: bold;
+      border-bottom: 1px solid white; }
+    .questInfo__yNYJd ul li > div {
+      padding: 10px; }
+
+.pathways__3EteK {
+  margin-top: 20px; }
+  .pathways__3EteK > ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .pathways__3EteK > ul > li {
+      text-align: center;
+      line-height: 32px; }
+      .pathways__3EteK > ul > li > div:last-child {
+        background-color: gray; }
+      .pathways__3EteK > ul > li > div {
+        padding: 10px;
+        white-space: nowrap; }
+        .pathways__3EteK > ul > li > div span {
+          margin: auto 0; }
+      .pathways__3EteK > ul > li:last-child {
+        width: 100%; }
+
+.leafsInfo__sOqaq {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .leafsInfo__sOqaq li {
+    height: 32px; }
+
+.questInfoPage__1EsS- h1 {
+  text-align: center;
+  padding: 10px 0; }
+
+.notFound__2p9B5 {
+  width: 100%; }
+  .notFound__2p9B5 h2 {
+    text-align: center;
+    margin: 10px 0; }
+  .notFound__2p9B5 div {
+    margin-left: 20px;
+    margin-bottom: 10px; }
+    .notFound__2p9B5 div ul {
+      padding-left: 20px; }
+
+.error__XuWer {
+  text-align: center;
+  padding-top: 20px; }
+

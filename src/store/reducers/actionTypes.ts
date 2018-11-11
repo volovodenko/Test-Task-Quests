@@ -1,0 +1,18 @@
+/*************************************************************************
+ * ALL TYPES
+ *************************************************************************/
+export enum actionType {
+    MAIN_INFO_FETCH_REQUEST = '@Main/MAIN_INFO_FETCH_REQUEST',
+    MAIN_INFO_FETCH_SUCCESS = '@Main/MAIN_INFO_FETCH_SUCCESS',
+    MAIN_INFO_FETCH_FAIL = '@Main/MAIN_INFO_FETCH_FAIL',
+
+    QUEST_INFO_FETCH_REQUEST = '@QuestInfo/QUEST_INFO_FETCH_REQUEST',
+    QUEST_INFO_FETCH_SUCCESS = '@QuestInfo/QUEST_INFO_FETCH_SUCCESS',
+    QUEST_INFO_FETCH_FAIL = '@QuestInfo/QUEST_INFO_FETCH_FAIL',
+    QUEST_INFO_NOT_FOUND = '@QuestInfo/QUEST_INFO_NOT_FOUND',
+    CLEAR_QUEST_INFO = '@QuestInfo/CLEAR_QUEST_INFO',
+
+    FINISHED_LEAFS_FETCH_REQUEST = '@QuestInfo/FINISHED_LEAFS_FETCH_REQUEST',
+    FINISHED_LEAFS_FETCH_SUCCESS = '@QuestInfo/FINISHED_LEAFS_FETCH_SUCCESS',
+    FINISHED_LEAFS_FETCH_FAIL = '@QuestInfo/FINISHED_LEAFS_FETCH_FAIL',
+}
